@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/local/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.50 scan initiated Wed Jul 12 00:54:37 2017 as: nmap -sn -PE -&#45;min-hostgroup 1024 -&#45;min-parallelism 1024 -oX nmap.xml 10.211.55.9/24 -->
+<nmaprun scanner="nmap" args="nmap -sn -PE -&#45;min-hostgroup 1024 -&#45;min-parallelism 1024 -oX nmap.xml 10.211.55.9/24" start="1499792077" startstr="Wed Jul 12 00:54:37 2017" version="7.50" xmloutputversion="1.04">
+<verbose level="0"/>
+<debugging level="0"/>
+<host><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="10.211.55.2" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="2635" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="10.211.55.9" addrtype="ipv4"/>
+<hostnames>
+<hostname name="52pojie.shared" type="PTR"/>
+</hostnames>
+<times srtt="2150" rttvar="5000" to="100000"/>
+</host>
+<runstats><finished time="1499792078" timestr="Wed Jul 12 00:54:38 2017" elapsed="0.45" summary="Nmap done at Wed Jul 12 00:54:38 2017; 256 IP addresses (2 hosts up) scanned in 0.45 seconds" exit="success"/><hosts up="2" down="254" total="256"/>
+</runstats>
+</nmaprun>
